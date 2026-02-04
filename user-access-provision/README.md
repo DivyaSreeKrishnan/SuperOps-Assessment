@@ -12,9 +12,9 @@ pip install boto3
 ```
 ## Environment Variables
 ``` text
-- $env:IAM_USER_NAME="SO-Assessment-Divya-PyAdmin"
-- $env:IAM_GROUP_NAME="PyAdmin"
-- $env:IAM_POLICY_TYPE="admin"
+$env:IAM_USER_NAME="SO-Assessment-Divya-PyAdmin"
+$env:IAM_GROUP_NAME="PyAdmin"
+$env:IAM_POLICY_TYPE="admin"
 ```
 
 IAM_POLICY_TYPE values: 

@@ -7,7 +7,7 @@ Python scripts to create and delete PAM access for AWS IAM users using groups an
 - AWS CLI configured
 - boto3 installed
 
-``` text
+``` bash
 pip install boto3
 ```
 ## Environment Variables
@@ -16,7 +16,9 @@ $env:IAM_GROUP_NAME="PyAdmin"
 $env:IAM_POLICY_TYPE="admin"
 
 IAM_POLICY_TYPE values: 
+``` text
 admin | readonly | poweruser
+```
 
 ## Create PAM Access
 Creates IAM group, attaches policy, creates user, and adds user to group.

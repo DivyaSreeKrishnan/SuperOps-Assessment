@@ -1,4 +1,3 @@
-```md
 # PAM Access Management (AWS IAM)
 
 Python scripts to create and delete PAM access for AWS IAM users using groups and managed policies.
